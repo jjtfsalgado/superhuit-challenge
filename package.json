@@ -18,5 +18,8 @@
     "grunt-link-html": "^0.1.2",
     "jquery": "^3.1.1",
     "node-sass": "^4.1.1"
+  },
+  "dependencies": {
+    "express": "^4.15.3"
   }
 }

@@ -1,0 +1,14 @@
+@font-face {
+	font-family: 'Orbitron';
+	font-style: normal;
+	font-weight: 400;
+	src: url(fonts/orbitron-400-normal.eot);
+	src: local('Orbitron-Light'), local('Orbitron-Regular'), url(fonts/orbitron-400-normal.woff2) format('woff'), url(fonts/orbitron-400-normal.woff) format('woff'), url(fonts/orbitron-400-normal.ttf) format('truetype'), url(fonts/orbitron-400-normal.svg#Orbitron) format('svg');
+}
+@font-face {
+	font-family: 'Orbitron';
+	font-style: normal;
+	font-weight: 700;
+	src: url(fonts/orbitron-700-normal.eot);
+	src: local('Orbitron-Bold'), url(fonts/orbitron-700-normal.woff2) format('woff'), url(fonts/orbitron-700-normal.woff) format('woff'), url(fonts/orbitron-700-normal.ttf) format('truetype'), url(fonts/orbitron-700-normal.svg#Orbitron) format('svg');
+}

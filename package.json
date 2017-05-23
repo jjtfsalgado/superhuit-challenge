@@ -1,0 +1,22 @@
+{
+  "name": "quote-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-compass": "^1.1.1",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-uglify": "^2.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-google-fonts": "^0.4.0",
+    "grunt-link-html": "^0.1.2",
+    "jquery": "^3.1.1",
+    "node-sass": "^4.1.1"
+  }
+}

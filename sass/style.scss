@@ -1,0 +1,220 @@
+
+@import "susy";
+@import "compass/css3";
+
+
+$susy:(
+	columns:12,
+	gutters:0,
+	math:fluid,
+	output:float,
+	gutter-position:inside,
+	container-position: center,
+);
+
+
+html,body{
+	margin:0;
+	padding:0;
+}
+
+/* Erase default p margin */
+p{
+  margin: 0;
+}
+
+.container{
+  position:relative;
+  width:100%;
+  height:100vh;
+  background-color:rgba(246,246,246,1);
+}
+
+.card {
+  position: absolute;
+  top:0;right:0;bottom:0;left:0;
+  margin: auto;
+  height: 553px;
+  width: 461px;
+  background-color:rgba(255,255,255,1);
+  -webkit-box-shadow: 0px 3px 12px -1px rgba(135,135,135,1);
+  -moz-box-shadow: 0px 3px 12px -1px rgba(135,135,135,1);
+  box-shadow: 0px 3px 12px -1px rgba(135,135,135,1);
+}
+
+.header{
+  @include span(12);
+	position:relative;
+  height:203px;
+
+	#img{
+		@include span(12);
+  	position:absolute;
+  	margin:auto;
+	}
+
+	.title{
+  	position: absolute;
+		top:0; bottom:0; left:0; right:0;
+  	margin: auto;
+		height: 70px;
+		width: 340px;
+		color: #FFFFFF;
+  	font-family: font37282; /* 'Helvetica light' but fontify.me generate a code */
+		font-size: 22px;
+		font-weight: 300;
+		line-height: 35px;
+
+	}
+}
+.content{
+	@include span(12);
+	position: relative;
+  height:281px;
+
+.description{
+	@include span(10);
+	position: absolute;
+	margin: auto;
+	left:0;right:0;
+	padding-top: 30px;
+	height: 40%;
+	color: #759790;
+	font-family: Helvetica;
+	font-size: 16px;
+	line-height: 24px;
+}
+
+.details{
+	@include span(10);
+	position: absolute;
+	margin: auto;
+	left:0;right:0;bottom:0;
+  height:60%;
+
+.col1{
+	@include span(2);
+	height: 100%;
+
+	img{
+		position: absolute;
+		top:0; bottom:0;
+		margin: auto;
+	}
+}
+
+.col2{
+	@include span(5 at 3);
+	height:100%;
+	position: relative;
+	text-align: center;
+
+	p{
+		width: 100%;
+		position: absolute;
+		top:0;bottom:0;
+		margin:auto;
+		height: 19px;
+		color: #759790;
+		font-family: Helvetica;
+		font-size: 16px;
+		line-height: 19px;
+	}
+
+	.line{
+	  position: absolute;
+	  top:0;bottom:0;right: 0;
+	  margin:auto;
+		box-sizing: border-box;
+		height: 68px;
+		border: 0.1px solid #E3E3E3;
+	}
+}
+
+	.col3{
+		@include span(4 at 8);
+		position:relative;
+		height:100%;
+
+		.row-time{
+			@include span(12);
+			height:50%;
+			position: relative;
+
+			p{
+				position: absolute;
+				bottom: 7px; left:20px;
+			  padding-left:30px;
+				height: 17px;
+				width: 86px;
+				color: #759790;
+				font-family: Helvetica;
+				font-size: 14px;
+				line-height: 17px;
+			}
+
+			#icon-time{
+			  width:15px;
+			  position:absolute;
+			  bottom:7px;left:20px;
+			}
+		}
+
+		.row-heart{
+			@include span(12);
+			height: 50%;
+			position: relative;
+
+			p{
+				top: 7px; left:20px;
+			  position:absolute;
+			  padding-left: 30px;
+				height: 17px;
+				width: 24px;
+				color: #759790;
+				font-family: Helvetica;
+				font-size: 14px;
+				font-weight: 300;
+				line-height: 17px;
+			}
+
+			#icon-heart{
+				width:15px;
+				position:absolute;
+				top:7px;left:20px;
+			}
+		}
+	}
+	}
+}
+.footer{
+  height:70px;
+  width:100%;
+  bottom:0;
+  position: absolute;
+	background-color: #50E3C2;
+}
+
+.footer #play{
+  position: absolute;
+  left:196px;
+  top:0;
+  bottom:0;
+  margin:auto;
+  width:27px;
+}
+
+.footer p{
+  position: absolute;
+  left:232px;
+  top:0;
+  bottom:0;
+  margin: auto;
+  height: 19px;
+  width: 37px;
+  color: #FFFFFF;
+  font-family: Helvetica;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 19px;
+}
